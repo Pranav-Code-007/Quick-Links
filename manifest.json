@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name":"Quick Links",
+    "description":"Quick Launching of Websites",
+    "version":"0.0.1",
+    "icons":{"128":"logo.png"},
+    "browser_action":{
+        "default_action":"logo.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":["activeTab"] 
+}
